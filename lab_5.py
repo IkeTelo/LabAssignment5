@@ -18,3 +18,24 @@ in our dictionary
 After each word is translated, we then
 Print out the translated sentence to the user.
 """
+'''PSEUDO-CODE'''
+"""
+main:
+   set sentence = input()
+   set dictionary = translate()
+   translate(sentence, dictionary)
+
+translate(sentence, dictionary):
+   words = for each of the word in the sentence
+   for each word, translate
+   print translated sentence to user
+
+create_dictionary():
+   read in textese.txt
+   create list = each line from file
+   close the file
+   create a dict off the list
+   return the dict
+
+main()
+"""
